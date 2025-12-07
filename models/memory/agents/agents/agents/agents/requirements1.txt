@@ -1,0 +1,10 @@
+# Create requirements.txt
+@"
+langchain==1.0.0
+langchain-core==0.3.0
+langchain-groq==0.6.0
+pydantic==2.5.0
+fastapi==0.109.0
+uvicorn==0.27.0
+python-dotenv==1.0.0
+"@ | Out-File -FilePath requirements.txt -Encoding utf8
